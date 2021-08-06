@@ -1,0 +1,24 @@
+.section {
+  padding: 4rem;
+  display: flex;
+  &--footer {
+    background-color: #333333;
+    color: #ffffff;
+    justify-content: center;
+  }
+
+  &__container {
+    margin: 1rem;
+  }
+
+  &__item {
+    margin: 1rem;
+  }
+}
+
+@media (max-width: 584px) {
+  .section {
+    padding: 1rem;
+    flex-wrap: wrap;
+  }
+}

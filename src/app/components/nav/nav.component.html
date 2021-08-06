@@ -1,0 +1,27 @@
+<nav class="nav nav--mobile">
+  <a
+    href="javascript:void(0);"
+    class="nav__hamburger-menu"
+    onclick="myFunction()"
+  >
+    <i class="fa fa-bars nav__menu-icon"></i>
+  </a>
+  <ul class="nav__list" id="js-nav-links">
+    <li class="nav__list-item">
+      <a href="" class="nav__link" [routerLink]="['/about']"> About </a>
+    </li>
+    <li class="nav__list-item">
+      <a href="" class="nav__link" [routerLink]="['/services']"> Services </a>
+    </li>
+    <a href="" [routerLink]="['/']">
+      <img src="assets/cutlery.png" alt="" class="nav__logo" />
+    </a>
+
+    <li class="nav__list-item">
+      <a href="" class="nav__link" [routerLink]="['/about']"> Menus </a>
+    </li>
+    <li class="nav__list-item">
+      <a href="" class="nav__link" [routerLink]="['/contact']"> Contact Us </a>
+    </li>
+  </ul>
+</nav>
